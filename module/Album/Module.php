@@ -1,0 +1,62 @@
+<?php
+namespace Album;
+
+use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
+use Zend\ModuleManager\Feature\ConfigProviderInterface;
+
+use Album\Model\Album;
+use Album\Model\AlbumTable;
+
+use Zend\Db\ResultSet\ResultSet;
+use Zend\Db\TableGateway\TableGateway;
+
+
+class Module implements AutoloaderProviderInterface, ConfigProviderInterface
+{
+    public function getAutoloaderConfig()
+    {
+        return array(
+            'Zend\Loader\ClassMapAutoloader' => array(
+                __DIR__ . '/autoload_classmap.php',
+            ),
+            'Zend\Loader\StandardAutoloader' => array(
+                'namespaces' => array(
+                    __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
+                ),
+            ),
+        );
+    }
+
+    // loads the module.config.php file
+    public function getConfig()
+    {
+        return include __DIR__ . '/config/module.config.php';
+    }
+
+    // This method is automatically called by the ModuleManager
+    // and applied to the ServiceManager
+    public function getServiceConfig()
+    {
+        return array(
+            'factories' => array(
+                'Album\Model\AlbumTable' =>  function($sm) {
+                        $tableGateway = $sm->get('AlbumTableGateway');
+                        $table = new AlbumTable($tableGateway);
+                        return $table;
+                    },
+                'AlbumTableGateway' => function ($sm) {
+
+                        // used Prototype pattern in order
+                        // to pass already existing objects instead of
+                        // creating new ones every time
+
+                        $dbAdapter = $sm->get('Zend\Db\Adapter\Adapter');
+                        $resultSetPrototype = new ResultSet();
+                        $resultSetPrototype->setArrayObjectPrototype(new Album());
+                        return new TableGateway('album', $dbAdapter, null, $resultSetPrototype);
+                    },
+            ),
+        );
+    }
+
+}
