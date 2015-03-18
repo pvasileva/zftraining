@@ -1,29 +1,101 @@
 <?php
-namespace Album\Model;
 
+namespace Album\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
 use Zend\InputFilter\InputFilter;
 use Zend\InputFilter\InputFilterAwareInterface;
 use Zend\InputFilter\InputFilterInterface;
 
+/**
+ * Album
+ *
+ * @ORM\Table(name="album")
+ * @ORM\Entity
+ */
 class Album implements InputFilterAwareInterface
 {
-    public $id;
-    public $artist;
-    public $title;
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
 
-    // Form filter for the entity
-    protected $inputFilter;
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="artist", type="string", length=100, nullable=false)
+     */
+    private $artist;
 
-    public function exchangeArray($data)
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="title", type="string", length=100, nullable=false)
+     */
+    private $title;
+
+
+
+    private $inputFilter;
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
     {
-        $this->id     = (isset($data['id']))     ? $data['id']     : null;
-        $this->artist = (isset($data['artist'])) ? $data['artist'] : null;
-        $this->title  = (isset($data['title']))  ? $data['title']  : null;
+        return $this->id;
     }
 
-    public function getArrayCopy()
+    /**
+     * Set artist
+     *
+     * @param string $artist
+     * @return Album
+     */
+    public function setArtist($artist)
     {
-        return get_object_vars($this);
+        $this->artist = $artist;
+
+        return $this;
+    }
+
+    /**
+     * Get artist
+     *
+     * @return string 
+     */
+    public function getArtist()
+    {
+        return $this->artist;
+    }
+
+    /**
+     * Set title
+     *
+     * @param string $title
+     * @return Album
+     */
+    public function setTitle($title)
+    {
+        $this->title = $title;
+
+        return $this;
+    }
+
+    /**
+     * Get title
+     *
+     * @return string 
+     */
+    public function getTitle()
+    {
+        return $this->title;
     }
 
     // METHODS FOR FILTERING FOLLOW:
@@ -95,5 +167,12 @@ class Album implements InputFilterAwareInterface
         }
 
         return $this->inputFilter;
+    }
+
+    public function exchangeArray($data)
+    {
+        $this->id     = (isset($data['id']))     ? $data['id']     : null;
+        $this->artist = (isset($data['artist'])) ? $data['artist'] : null;
+        $this->title  = (isset($data['title']))  ? $data['title']  : null;
     }
 }

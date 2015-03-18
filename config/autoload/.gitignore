@@ -1,3 +1,8 @@
 local.php
 *.local.php
+.idea
+.project
+.settings
+composer.lock
 vendor
+.~lock.*

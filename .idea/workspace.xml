@@ -26,82 +26,36 @@
       <file leaf-file-name="module.config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Album/config/module.config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="89" selection-start="524" selection-end="524" vertical-scroll-proportion="-2.0" vertical-offset="220" max-vertical-offset="765">
+            <state line="39" column="7" selection-start="1257" selection-end="1257" vertical-scroll-proportion="-20.346153" vertical-offset="134" max-vertical-offset="1037">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/autoload/.gitignore">
+      <file leaf-file-name="Album.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Entity/Album.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="28" selection-end="28" vertical-scroll-proportion="0.06476191" vertical-offset="0" max-vertical-offset="525">
+            <state line="176" column="5" selection-start="4036" selection-end="4036" vertical-scroll-proportion="-15.769231" vertical-offset="2582" max-vertical-offset="3128">
+              <folding>
+                <element signature="e#32#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlbumController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Controller/AlbumController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="19" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.46703297" vertical-offset="765" max-vertical-offset="2567">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.lock" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.lock">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="Album.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Model/Album.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="654.46155" vertical-offset="17016" max-vertical-offset="17527">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="12" selection-start="291" selection-end="291" vertical-scroll-proportion="29.16" vertical-offset="899" max-vertical-offset="1411">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="57" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="374">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="doctrine.global.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/autoload/doctrine.global.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="340">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/autoload/global.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="10" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="doctrine.local.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/autoload/doctrine.local.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="60" selection-start="170" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="357">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlbumForm.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Form/AlbumForm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="14" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="782">
+            <state line="12" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1751">
               <folding />
             </state>
           </provider>
@@ -120,17 +74,13 @@
         <option value="$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Config/Processor/Filter.php" />
         <option value="$PROJECT_DIR$/module/Application/config/module.config.php" />
         <option value="$PROJECT_DIR$/module/Album/autoload_classmap.php" />
-        <option value="$PROJECT_DIR$/module/Album/config/module.config.php" />
         <option value="$PROJECT_DIR$/module/Album/src/Album/Model/Album.php5" />
         <option value="$PROJECT_DIR$/module/Album/src/Album/Model/AlbumTable.php" />
         <option value="$PROJECT_DIR$/module/Album/Module.php" />
         <option value="$PROJECT_DIR$/config/autoload/local.php" />
         <option value="$PROJECT_DIR$/config/autoload/global.php" />
-        <option value="$PROJECT_DIR$/module/Album/view/album/album/index.phtml" />
         <option value="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" />
-        <option value="$PROJECT_DIR$/module/Album/src/Album/Model/Album.php" />
         <option value="$PROJECT_DIR$/module/Album/src/Album/Form/AlbumForm.php" />
-        <option value="$PROJECT_DIR$/module/Album/src/Album/Controller/AlbumController.php" />
         <option value="$PROJECT_DIR$/module/Album/view/album/album/add.phtml" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/autoload/doctrine.global.php" />
@@ -139,6 +89,13 @@
         <option value="$PROJECT_DIR$/config/autoload/zenddevelopertools.local.php" />
         <option value="$PROJECT_DIR$/config/autoload/doctrine.local.php" />
         <option value="$PROJECT_DIR$/config/autoload/.gitignore" />
+        <option value="$PROJECT_DIR$/module/Album/view/album/album/edit.phtml" />
+        <option value="$PROJECT_DIR$/module/Album/view/album/album/delete.phtml" />
+        <option value="$PROJECT_DIR$/module/Album/config/module.config.php" />
+        <option value="$PROJECT_DIR$/module/Album/view/album/album/index.phtml" />
+        <option value="$PROJECT_DIR$/module/Album/src/Album/Model/Album.php" />
+        <option value="$PROJECT_DIR$/module/Album/src/Album/Entity/Album.php" />
+        <option value="$PROJECT_DIR$/module/Album/src/Album/Controller/AlbumController.php" />
       </list>
     </option>
   </component>
@@ -197,20 +154,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ZendTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZendTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZendTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,6 +318,40 @@
               <option name="myItemId" value="Album" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZendTraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZendTraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Album" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Album" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -398,38 +375,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZendTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZendTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZendTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZendTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autoload" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -437,7 +382,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.PHP" />
     <property name="options.splitter.main.proportions" value="0.22829269" />
     <property name="options.splitter.details.proportions" value="0.2912913" />
     <property name="options.searchVisible" value="true" />
@@ -504,8 +449,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="28" width="1368" height="741" extended-state="1" />
-    <editor active="true" />
+    <frame x="-1" y="28" width="1368" height="741" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -553,28 +498,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Application/config/module.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="3" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1037" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Application/src/Application/Controller/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/view/application/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="850" />
@@ -680,24 +603,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/edit.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/delete.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Album/autoload_classmap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="31" selection-start="83" selection-end="83" vertical-scroll-proportion="0.093406595" vertical-offset="0" max-vertical-offset="546" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
@@ -710,28 +618,9 @@
         <state line="36" column="24" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0" vertical-offset="582" max-vertical-offset="1139" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Model/Album.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="69" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0" vertical-offset="1055" max-vertical-offset="1700" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Controller/AlbumController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="38" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1309">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/add.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="13" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Model/AlbumTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
@@ -754,13 +643,6 @@
     <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-developer-tools/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Form/AlbumForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="14" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="782">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
@@ -801,16 +683,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/doctrine.local.php">
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="60" selection-start="170" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/config/module.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="89" selection-start="524" selection-end="524" vertical-scroll-proportion="-2.0" vertical-offset="220" max-vertical-offset="765">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
           <folding />
         </state>
       </provider>
@@ -820,28 +695,114 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="654.46155" vertical-offset="17016" max-vertical-offset="17527">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-31.883677" vertical-offset="16994" max-vertical-offset="17527">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="291" selection-end="291" vertical-scroll-proportion="29.16" vertical-offset="899" max-vertical-offset="1411">
+        <state line="10" column="12" selection-start="291" selection-end="291" vertical-scroll-proportion="-1.3239701" vertical-offset="877" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+    <entry file="file://$PROJECT_DIR$/config/autoload/doctrine.local.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
+        <state line="5" column="60" selection-start="170" selection-end="172" vertical-scroll-proportion="0.15567766" vertical-offset="0" max-vertical-offset="546">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Form/AlbumForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="14" selection-start="484" selection-end="484" vertical-scroll-proportion="0.22161172" vertical-offset="236" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/autoload/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="28" selection-end="28" vertical-scroll-proportion="0.06476191" vertical-offset="0" max-vertical-offset="525">
+        <state line="7" column="8" selection-start="76" selection-end="76" vertical-scroll-proportion="0.21755028" vertical-offset="0" max-vertical-offset="547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="532" column="42" selection-start="14417" selection-end="14456" vertical-scroll-proportion="-2.459707" vertical-offset="10387" max-vertical-offset="17340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/edit.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="31" selection-start="534" selection-end="534" vertical-scroll-proportion="0.71374047" vertical-offset="0" max-vertical-offset="524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/delete.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="7" selection-start="638" selection-end="638" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/config/module.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="7" selection-start="1257" selection-end="1257" vertical-scroll-proportion="-20.346153" vertical-offset="134" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/InputFilter/InputFilterAwareInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="20" selection-start="534" selection-end="534" vertical-scroll-proportion="0.42175573" vertical-offset="0" max-vertical-offset="524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Model/AlbumTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="399" selection-end="399" vertical-scroll-proportion="-0.26526716" vertical-offset="496" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Form/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="283" column="20" selection-start="7880" selection-end="7880" vertical-scroll-proportion="0.45009786" vertical-offset="4309" max-vertical-offset="15215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Entity/Album.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="176" column="5" selection-start="4036" selection-end="4036" vertical-scroll-proportion="-15.769231" vertical-offset="2582" max-vertical-offset="3128">
+          <folding>
+            <element signature="e#32#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Model/Album.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="16" selection-start="673" selection-end="673" vertical-scroll-proportion="0.74725276" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/src/Album/Controller/AlbumController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="19" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.46703297" vertical-offset="765" max-vertical-offset="2567">
           <folding />
         </state>
       </provider>
